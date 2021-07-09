@@ -5,7 +5,7 @@
 
 <br>
 
-<h1 align="center">React Native Phone Number Input
+<h1 align="center">React Native Phone Number Input Rtl
 </h1>
 
 <p align="center">Performance oriented React Native Phone Number Input with typings and proper validation for any country.
@@ -47,13 +47,13 @@
 ## Installation
 
 ```bash
-$ yarn add react-native-phone-number-input
+$ yarn add @navid73/react-native-phone-number-input-rtl
 ```
 
 OR
 
 ```bash
-$ npm i react-native-phone-number-input --save
+$ npm i @navid73/react-native-phone-number-input-rtl --save
 ```
 
 ## Features
@@ -77,7 +77,7 @@ import {
   TouchableOpacity,
   Text,
 } from "react-native";
-import PhoneInput from "react-native-phone-number-input";
+import PhoneInput from "@navid73/react-native-phone-number-input-rtl";
 import { Colors } from "react-native/Libraries/NewAppScreen";
 
 const App: React.FC = () => {
