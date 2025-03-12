@@ -59,7 +59,7 @@ $ npm i @navid73/react-native-phone-number-input-rtl --save
 ## Features
 
 - :iphone: Works with iOS and Android, Cross-platform :100:
-- :crossed_flags: Built-in country picker (uses [react-native-country-picker-modal][react-native-country-picker-modal])
+- :crossed_flags: Built-in country picker (uses [react-native-country-picker-modal-v2][react-native-country-picker-modal-v2])
 - :wrench: Completely customizable UI!
 - :heavy_check_mark: Proper validation (uses [google-libphonenumber](https://github.com/google/libphonenumber))
 
@@ -134,7 +134,7 @@ export default App;
 
 ## Props
 
-- `defaultCode?`: [CountryCode](https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/src/types.ts#L252)
+- `defaultCode?`: [CountryCode](https://github.com/DaftMonk/react-native-country-picker-modal/blob/38e6de96cc7c79c9c66d4a1aa66aa28b4170c156/src/types.ts#L252)
 - `withDarkTheme?`: boolean
 - `withShadow?`: boolean
 - `autoFocus?`: boolean
@@ -160,7 +160,7 @@ export default App;
 
 ## Methods
 
-- `getCountryCode`: () => [CountryCode](https://github.com/xcarpentier/react-native-country-picker-modal/blob/master/src/types.ts#L252)
+- `getCountryCode`: () => [CountryCode](https://github.com/DaftMonk/react-native-country-picker-modal/blob/38e6de96cc7c79c9c66d4a1aa66aa28b4170c156/src/types.ts#L252)
 - `getCallingCode`: () => string | undefined
 - `getNumberAfterPossiblyEliminatingZero`: () => {number: string , formattedNumber: string };
 - `isValidNumber`: (number: string) => boolean
@@ -215,4 +215,4 @@ Reach out to me at one of the following places!
 
 Looking for a React/React-Native Freelance Expert? Email at garganurag893@gmail.com
 
-[react-native-country-picker-modal]: https://github.com/xcarpentier/react-native-country-picker-modal
+[react-native-country-picker-modal-v2]: https://github.com/DaftMonk/react-native-country-picker-modal
